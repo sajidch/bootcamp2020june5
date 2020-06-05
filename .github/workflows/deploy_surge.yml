@@ -29,7 +29,7 @@ jobs:
                 run: npm install --g surge
                 - name: deploying using surge
                   run : surge ./ bootcam2020june5.surge.sh/ --token{{secrets.SURGE_TOKEN}}
-                  {{
-      - 
+                  
+      
 
    
